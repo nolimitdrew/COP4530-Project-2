@@ -1,0 +1,11 @@
+// Analysis.txt
+// Andrew Stade
+// 10/8/2020
+
+The worst-case run-time complexity of the member function reverse() in O(n), is the creation of a new list, 
+setting itr to the end of our current list, inserting the data "backwards" by decreasing itr's spot in line through each loop. 
+Worst case could be a seg fault or allocation of unintended/garbage data, if managed checks/sizes poorly.
+
+The worst-case run-time complexity of the member function remove_if() in O(n), is starting itr at the beginning, 
+and until itr reaches the end of the list, if a node exists it will be removed.
+Worst case could be a seg fault or removal of data, if managed checks/functions poorly.
